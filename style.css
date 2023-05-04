@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+.container{
+    max-width: 700px;
+    width: 85%;
+    margin: 40px auto 0px;
+    
+}
+header{
+    background: #E5F9DB;
+    width: 100%;
+    padding: 20px 0;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+header h3{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.search{
+    position: relative;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 8px 5px;
+}
+.search button{
+    
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    
+    background: transparent;
+    cursor: pointer;
+        
+    
+}
+form{
+    border: 1px solid #eee;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+form h3{
+    font-size: 17px;
+    color: rgb(69, 61, 61);
+    
+}
+form .form-content:first-child{
+    display: flex;
+    flex-direction: column;
+}
+form .title{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+form .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form .btn{
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 25px;
+    background: black;
+    cursor: pointer;
+}
+.form-content input{
+    width: 80%;
+    height: 25px;
+    outline: none;
+    border: 1px solid #eee;
+}
+.list-content ul{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+}
+.list-content ul li{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    padding-left: 15px;
+    border: 1px solid #eee;
+    position: relative;
+}
+li i{
+   
+    background: #19376D;
+    padding: 3px 4px;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 16px;
+}
+
+#box{
+  width: 100%;
+  min-height: 200px;
+  background-color: #f4f4f4;
+  margin-bottom: 50px;
+}
+.copyright{
+    padding: 10px 0;
+    text-align: center;
+    background: #0B2447;
+    color: #EEEEEE;
+    font-size: 12px;
+}
